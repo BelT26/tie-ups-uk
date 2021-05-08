@@ -1,3 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani&display=swap');
 
+/* base styles for html and body elements */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+body {
+    min-height: 100%;
+}
+
+
+header {
+    background-color: black;
+    height: 6rem;
+    postion: relative;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;  
+    padding-top: 30px;  
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    color:darkgoldenrod;
+}
+
+#logo {
+    display:inline-block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#logo h2 {
+    font-family: 'MuseoModerno', cursive;
+    color: white;
+    font-size: 2rem;
+}
