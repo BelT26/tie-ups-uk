@@ -138,3 +138,53 @@ footer i:hover {
     z-index: 3;
     position: absolute;
 }
+
+/* styles for about-us section on home page */
+
+#about-us-container {
+    width: 80%;
+    margin: auto;
+}
+
+#subheading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#subheading > h2 {
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    
+}
+
+#subheading > h3 {
+    font-size: 1.5rem;
+    padding: 0px 40px;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+
+}
+
+#img-left-text-right {
+    height: 500px;
+    width: 80%;
+    margin: 50px auto;
+
+}
+
+#img-2 {
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;  
+    overflow: hidden; 
+
+}
+
+#text-box {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px 50px;
+    float: right;
+}
+
+
