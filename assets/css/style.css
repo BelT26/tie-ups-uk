@@ -298,6 +298,34 @@ footer i:hover {
     font-family: 'MuseoModerno', cursive;
 }
 
+/* styling for form section */
+
+#contact-form-container {
+    display: block;
+    width: 80%;
+    height: 600px;
+    margin: 0px auto;
+}
+
+#contact-form-container h2{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+form {
+    height: 300px;
+    margin: 20px 0px;
+    line-height: 2rem;
+    border:darkslategray solid 1px;
+    padding: 20px;
+}
+
+form p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
 
 
 

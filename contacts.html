@@ -45,21 +45,28 @@
     </section>
     <section id="contact-form-container">
         <h2>Sign up to our mailing list for exclusive offers and a full catalogue of products</h2>
-        <form>
-            <label for="full-name">Name</label>
-            <input type="text" id="full-name" name="#">
-            <br>
-            <label for="email">Email Address:</label>
-            <input type ="email" id="email" name="#">
-            <br>
-            <input type="text-box">
-            <br>
-            <input type="checkbox" id="catalogue">
-            <label for="catalogue">I would like you to email me a copy of your catalogue</label>
-            <br>
-            <input type="checkbox" id="marketing" name="#">
-            <label for="marketing">I agree for you to use my details to send me news and exclusive offers</label>
-            <input type="submit">
+        <form action="#" method="POST">
+            <p>
+                <label for="full-name">Name:</label>
+                <input type="text" id="full-name" name="#">
+            </p>
+            <p>
+                <label for="email">Email Address:</label>
+                <input type ="email" id="email" name="#">
+            </p>
+            <p>
+                <label for="requests"></label>
+                <textarea id="requests" name="requests" placeholder="Please enter any queries or requests"></textarea>
+            </p>
+            <p>
+                <input type="checkbox" id="catalogue" name="marketing">
+                <label for="catalogue">I would like you to email me a copy of your catalogue</label>
+            </p>
+            <p>
+                <input type="checkbox" id="marketing" name="marketing">
+                <label for="marketing">I agree for you to use my details to send me news and exclusive offers</label>
+            </p>   
+            <button type="submit">Submit</button>
         </form>
     </section>
     <footer> 
