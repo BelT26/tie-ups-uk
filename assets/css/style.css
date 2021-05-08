@@ -188,3 +188,27 @@ footer i:hover {
 }
 
 /* styles for products page */
+
+#products-intro {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+#products-intro > h1 {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 4rem;
+}
+
+#products-intro > h2 {
+    font-size: 1.5rem;
+}
+
+#products-intro a {
+    color: black;
+}
+
+#products-intro a:hover {
+    color:darkgoldenrod;
+    text-decoration: none;
+}
+
