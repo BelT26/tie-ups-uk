@@ -13,7 +13,7 @@ body {
     min-height: 100%;
 }
 
-
+/* styles for header of each page */
 header {
     background-color: black;
     height: 6rem;
@@ -51,7 +51,7 @@ nav a:hover {
     display:inline-block;
     position: absolute;
     top: 20px;
-    right: 20px;
+    right: 60px;
 }
 
 #logo h2 {
@@ -59,3 +59,50 @@ nav a:hover {
     color: white;
     font-size: 2rem;
 }
+
+/* styles for footer of each page */
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+
+#small-logo {
+    display: inline-block;
+    padding: 20px 20px;
+    
+}
+
+#small-logo p {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 1.6em;
+}
+ 
+#small-logo i {
+    font-size: 0.8em;
+}
+footer ul {
+    float: right;
+    
+}
+
+footer li {
+    display:inline-block;
+    padding: 20px 30px;
+    
+}
+
+
+footer i {
+    color: white;
+    font-size: 240%;
+    margin-right: 60px;
+}
+
+footer i:hover {
+    color:darkgoldenrod;
+}
+
+
