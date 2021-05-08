@@ -212,6 +212,49 @@ footer i:hover {
     text-decoration: none;
 }
 
+/* styling for product list */
+
+
+.belt-flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.belt {
+    width: 450px;
+    margin: 30px auto;
+    display: inline-block;
+    text-align: center;
+}
+.belt-photo{
+    width: 300px;
+    height: 200px;
+    margin: 20px auto;
+      
+}
+
+.belt-caption {
+    text-align: center;
+    width: 100%;
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+#product-list h2 {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#reptile, #scribble, #studs {
+    margin-top: 50px;
+}
+
+
 
 
 
