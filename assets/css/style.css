@@ -254,6 +254,50 @@ footer i:hover {
     margin-top: 50px;
 }
 
+/* styling for contacts page top section */
+
+#store-container {
+    width: 80%;
+    height: 600px; 
+    margin: 50px auto;
+       
+}
+
+#store-container h1 {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#store-container p {
+    font-size: 1.1rem;
+}
+
+
+#map-container, #contact-details {
+    display: inline-block;
+    width: 40%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+#map {
+    margin: 50px, auto;
+    background-color: darkgoldenrod;
+    height: 400px;
+    width: 500px;
+    border: darkslategray solid 1px;
+}
+
+#contact-details {
+    float: right;
+    margin-left: 100px;
+}
+
+#contact-details h2 {
+    font-family: 'MuseoModerno', cursive;
+}
+
 
 
 
