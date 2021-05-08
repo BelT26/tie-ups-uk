@@ -126,7 +126,7 @@ footer i:hover {
 }
 
 #cover-text {
-    font-size: 3em;
+    font-size: 3rem;
     font-family: 'MuseoModerno', cursive;
     letter-spacing: 5px;
     width: 100%;
@@ -187,4 +187,4 @@ footer i:hover {
     float: right;
 }
 
-
+/* styles for products page */
