@@ -106,4 +106,21 @@ footer i:hover {
     color:darkgoldenrod;
 }
 
+/* styles for main image on index page */
 
+
+#main-image-container {
+    height: 600px;
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    margin: 80px auto;
+
+}
+
+#main-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/TieUp\ Belts-12.jpg") no-repeat center center;
+            
+}
