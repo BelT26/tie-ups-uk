@@ -169,11 +169,16 @@ footer i:hover {
     height: 500px;
     width: 80%;
     margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
 
 }
 
+
 #img-2 {
-    width: 50%;
+    width: 400px;
     display: inline-block;
     box-sizing: border-box;  
     overflow: hidden; 
@@ -181,10 +186,10 @@ footer i:hover {
 }
 
 #text-box {
-    width: 50%;
+    width: 400px;
     box-sizing: border-box;
     padding: 10px 50px;
-    float: right;
+    display: inline-block;
 }
 
 /* styles for products page */
