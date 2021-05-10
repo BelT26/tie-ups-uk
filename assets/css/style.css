@@ -265,7 +265,7 @@ footer i:hover {
     width: 80%;
     height: 600px; 
     margin: 50px auto;
-       
+         
 }
 
 #store-container h1 {
@@ -279,18 +279,28 @@ footer i:hover {
 }
 
 
+#map-contact-flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    height:auto;
+}
+
+
+
 #map-container, #contact-details {
     display: inline-block;
     width: 40%;
     padding: 50px;
     box-sizing: border-box;
+
 }
 
 #map {
     margin: 50px, auto;
-    background-color: darkgoldenrod;
-    height: 400px;
-    width: 500px;
+    max-height: 400px;
+    max-width: 500px;
     border: darkslategray solid 1px;
 }
 
@@ -317,6 +327,11 @@ footer i:hover {
     font-family: 'MuseoModerno', cursive;
     font-size: 1.8rem;
     text-align: center;
+    min-height: fit-content;
+}
+
+#form-header {
+    display: block;
 }
 
 form {
@@ -395,6 +410,78 @@ form button:hover {
     #cover-text {
         font-size: 1.5em;
     }
+
+    #map-container {
+        width:80%;
+        height: auto;
+        margin: 10px auto;
+        float: none;
+        padding: 0px;
+        overflow: hidden;
+        box-sizing: border-box;
+                
+
+    }
+
+    #map {
+        width: 240px;
+        height: auto;
+    }
+
+
+
+    #contact-details {
+        width: 80%;
+        margin: 10px auto;
+        text-align: center;
+        float:none;
+        display: block;
+        padding: 10px;
+    }
+
+    #contact-form-container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 180px auto 10px;
+        padding: 10px;
+    }
+    
+    #contact-form-container h2{
+        font-size: 1rem;
+    }
+        
+    form {
+        height: auto;
+        width: 80%;
+        margin: 10px auto;
+        line-height: 2rem;
+        padding: 10px 10px;
+    }  
+    
+    form h3 {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    
+    form p {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    
+    form textarea {
+        width: 210px;
+        height: 100px;
+        border: darkslategray solid 1px;
+        border-radius: 3%;
+    }
+    
+    form button {
+        font-size: 0.8rem;
+    }
+    
+        
 }
 
 
