@@ -44,29 +44,37 @@
         </div>
     </section>
     <section id="contact-form-container">
-        <h2>Sign up to our mailing list for exclusive offers and a full catalogue of products</h2>
-        <form action="#" method="POST">
+        <h2>Subscribe to our mailing list for exclusive offers and a full catalogue of products</h2>
+        <form action="./" method="POST">
+            <div id="form-heading">
+                <h3>Sign Up</h3>
+            </div>
+            <div id="form-item">
             <p>
-                <label for="full-name">Name:</label>
-                <input type="text" id="full-name" name="#">
+                <label for="full-name" class="form-label">Name:</label>
+                <br>
+                <input type="text" id="full-name" name="name">
             </p>
             <p>
-                <label for="email">Email Address:</label>
-                <input type ="email" id="email" name="#">
+                <label for="email" class="form-label">Email Address:</label>
+                <br>
+                <input type ="email" id="email" name="email">
             </p>
             <p>
-                <label for="requests"></label>
+                <label for="requests" class="form-label"></label>
+                <br>
                 <textarea id="requests" name="requests" placeholder="Please enter any queries or requests"></textarea>
             </p>
             <p>
-                <input type="checkbox" id="catalogue" name="marketing">
-                <label for="catalogue">I would like you to email me a copy of your catalogue</label>
+                <input type="checkbox" id="catalogue" name="catalogue">
+                <label for="catalogue" class="form-label"> Please send me a copy of your catalogue</label>
             </p>
             <p>
                 <input type="checkbox" id="marketing" name="marketing">
-                <label for="marketing">I agree for you to use my details to send me news and exclusive offers</label>
+                <label for="marketing" class="form-label"> I agree for you to use my details to send me news and exclusive offers</label>
             </p>   
             <button type="submit">Submit</button>
+            </div>
         </form>
     </section>
     <footer> 
