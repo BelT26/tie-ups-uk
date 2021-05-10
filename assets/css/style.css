@@ -263,8 +263,8 @@ footer i:hover {
 
 #store-container {
     width: 80%;
-    height: 600px; 
-    margin: 50px auto;
+    height: auto; 
+    margin: 50px auto 10px;
          
 }
 
@@ -285,28 +285,29 @@ footer i:hover {
     flex-wrap: wrap;
     justify-content: space-around;  
     height:auto;
+    padding-top: 50px;
+    width: 100%;
 }
 
 
 
 #map-container, #contact-details {
     display: inline-block;
-    width: 40%;
-    padding: 50px;
     box-sizing: border-box;
 
 }
 
 #map {
     margin: 50px, auto;
-    max-height: 400px;
-    max-width: 500px;
+    height: 400px;
+    width: 500px;
     border: darkslategray solid 1px;
+    
 }
 
 #contact-details {
-    float: right;
-    margin-left: 100px;
+    display:inline-block;
+    width: 300px;
 }
 
 #contact-details h2 {
@@ -328,6 +329,7 @@ footer i:hover {
     font-size: 1.8rem;
     text-align: center;
     min-height: fit-content;
+    margin-top: 20px;
 }
 
 #form-header {
@@ -383,7 +385,10 @@ form button:hover {
 
 /* media queries */
 
-@media screen and (max-width: 760px) {
+
+
+
+@media screen and (max-width: 780px) {
 
     nav ul {
         display: block;
@@ -419,13 +424,15 @@ form button:hover {
         padding: 0px;
         overflow: hidden;
         box-sizing: border-box;
+        justify-self: center;
                 
 
     }
 
     #map {
-        width: 240px;
+        width: 500px;
         height: auto;
+        margin: 0 auto;
     }
 
 
@@ -444,7 +451,7 @@ form button:hover {
         display: flex;
         flex-direction: column;
         height: auto;
-        margin: 180px auto 10px;
+        margin: 20px auto 10px;
         padding: 10px;
     }
     
@@ -480,8 +487,26 @@ form button:hover {
     form button {
         font-size: 0.8rem;
     }
+
+    #small-logo {
+        display: none;
+    }
     
         
+}
+
+@media screen and (max-width: 600px) {
+    #map {
+        width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    #map {
+        width: 220px;
+    }
+
 }
 
 
