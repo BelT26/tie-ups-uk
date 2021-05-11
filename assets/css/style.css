@@ -84,6 +84,8 @@ footer {
     font-size: 0.8em;    
 }
 
+
+
 footer ul {
     float: right;
     
@@ -102,8 +104,12 @@ footer i {
     
 }
 
-footer i:hover {
+.social i:hover {
     color:darkgoldenrod;
+}
+
+#small-logo i:hover {
+    color:white;
 }
 
 /* styles for main image on index page */
@@ -321,7 +327,7 @@ footer i:hover {
     display: block;
     width: 80%;
     height: 600px;
-    margin: 0px auto;
+    margin: 30px auto;
 }
 
 #contact-form-container h2{
@@ -487,17 +493,16 @@ form button:hover {
     form button {
         font-size: 0.8rem;
     }
-
-    #small-logo {
-        display: none;
-    }
-    
-        
+               
 }
 
 @media screen and (max-width: 600px) {
     #map {
         width: 250px;
+    }
+
+    #small-logo {
+        display: none;
     }
 
 }
