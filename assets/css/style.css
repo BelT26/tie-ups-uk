@@ -172,8 +172,8 @@ footer i {
 }
 
 #img-left-text-right {
-    height: 500px;
-    width: 80%;
+    height: auto;
+    width: 100%;
     margin: 50px auto;
     display: flex;
     flex-direction: row;
@@ -194,7 +194,7 @@ footer i {
 #text-box {
     width: 400px;
     box-sizing: border-box;
-    padding: 10px 50px;
+    font-size: 1.1rem;
     display: inline-block;
 }
 
