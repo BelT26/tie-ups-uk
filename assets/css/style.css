@@ -189,7 +189,9 @@ footer i {
 
 
 #img-2 {
+    
     max-width: 400px;
+    height: 450px;
     display: inline-block;
     box-sizing: border-box;  
     overflow: hidden; 
@@ -469,7 +471,11 @@ form button:hover {
 
 
 /* media queries */
-
+@media screen and (max-width: 1050px) {
+    form {
+        width: 80%;
+    }
+}
 
 
 
@@ -561,9 +567,13 @@ form button:hover {
         font-size: 1rem;
         line-height: 2rem;
     }
+
+    #email {
+        width: 220px;
+    }
     
     form textarea {
-        width: 210px;
+        width: 400px;
         height: 100px;
         border: darkslategray solid 1px;
         border-radius: 3%;
@@ -584,12 +594,40 @@ form button:hover {
         display: none;
     }
 
+    footer ul {
+        float: none;
+        margin: 0px auto;
+        
+    }
+
+    footer li {
+        padding: 20px, 40px;
+        margin: 0px auto;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
     #map {
         width: 220px;
     }
+
+    #img-2 {
+        margin-bottom: 20px;
+    }
+
+    #img-2 image{
+          width: 320px;
+          height: auto;     
+        
+    }
+
+    form textarea {
+        width: 220px;
+    }
+
+    
+
 
 }
 
