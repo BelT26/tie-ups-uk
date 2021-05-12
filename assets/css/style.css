@@ -251,6 +251,7 @@ footer i {
     height: 200px;
     margin: 0px auto;
     overflow: hidden;
+    transition: transform 1s linear 0s;
       
 }
 
