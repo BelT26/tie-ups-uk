@@ -377,12 +377,12 @@ form input {
 
 form p {
     font-size: 1.2rem;
-    line-height: 2rem;
+    line-height: 1.8rem;
 }
 
 form textarea {
     width: 600px;
-    height: 180px;
+    height: 160px;
     border: darkslategray solid 1px;
     border-radius: 10px;
     background-color: rgb(231, 227, 214);
