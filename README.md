@@ -26,15 +26,16 @@ The brand logo, which is the main heading of the page, was positioned over the p
 
 ##About Section
 This section informs the user of the company's sustainable, animal-friendly values and the USPs of the products.
-I selected a photograph that both reflected the company ethos by depicting a belt against a backdrop of leaves and provided a flattering image of one of the main products.
-
+I selected a photograph that both reflected the company ethos by depicting a belt against a backdrop of leaves and provided a flattering image of one of the main products. The photograph was also taken by Tony Cullinane.
 
 
 ##Footer
+The footer contains links that allow the user to connect to the company Facebook and Instagram pages.
 To prevent overlapping on smaller devices I added a media query change the display of the company logo to 'none' so that only the clickable social media links are visible.
 The links currently take the user to the Facebook and Instagram home pages. These will be amended to link directly to my friend's social media accounts in the future.
 
 ##Products Page
+This page displays images of the main products in the current collection.
 All product images were provided by the Italian tie-ups company.
 I originally intended to use media queries to amend the number of products displayed horizontally from 3 to 2 to 1 according to the device width.  As I was struggling with items overlapping and finding the right breakpoints, I decided to research slack for some other suggestions and found the following post very helpful [Igor CSS Grid Post on Slack](https://code-institute-room.slack.com/archives/C0L316Z96/p1620317611161800). This also led me on to the following flexbox tutorial on youtube[webdev Simplified Flexbox Tutorial](https://www.youtube.com/watch?v=fYq5PXgSsbE).
 Through Flexbox I managed to resize the images responsively and I applied the same technique to stack images on top of text on smaller screens for the home page and the contacts page.  I found the following documentation very helpful to refer to [Mdn Flexbox Documentation](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) 
