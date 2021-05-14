@@ -36,18 +36,46 @@ The links currently take the user to the Facebook and Instagram home pages. Thes
 
 ##Products Page
 This page displays images of the main products in the current collection.
+Underneath the header two links have been added that take the user either to the map section of the contacts page or the contact form.
 All product images were provided by the Italian tie-ups company.
 I originally intended to use media queries to amend the number of products displayed horizontally from 3 to 2 to 1 according to the device width.  As I was struggling with items overlapping and finding the right breakpoints, I decided to research slack for some other suggestions and found the following post very helpful [Igor CSS Grid Post on Slack](https://code-institute-room.slack.com/archives/C0L316Z96/p1620317611161800). This also led me on to the following flexbox tutorial on youtube[webdev Simplified Flexbox Tutorial](https://www.youtube.com/watch?v=fYq5PXgSsbE).
-Through Flexbox I managed to resize the images responsively and I applied the same technique to stack images on top of text on smaller screens for the home page and the contacts page.  I found the following documentation very helpful to refer to [Mdn Flexbox Documentation](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) 
-Currently 18 products are listed. More will be added as Rebecca's stock expands.
+Through Flexbox I managed to resize the images responsively and I applied the same technique to stack images on top of text on smaller screens for the home page and the contacts page.  I found the following documentation very helpful to refer to [Mdn Flexbox Documentation](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox).
+A zoom feature was added to offer the user a closer view of the product. The initial effect did not look very smooth and so I added CSS transition properties to improve the viewing experience. 
+Currently 18 products are listed. More will be added as my friend's stock expands.
 
 
 ##Contacts Page
- My friend rents an area of Wratten's Gift Shop in Chislehurst from which she sells the belts. The map image was taken from Google Maps using a snipping tool.
+
+### Form
+The form allows the user to subscribe for special offers on the product.
+The form contains a text area that allows the user to include any queries or requests.
+
+### Map and contact details
+This section directs the user to Wratten's Gift Shop in Chislehurst from which my friend sells the belts. The map image was taken from Google Maps using a snipping tool.
+To the right of the map the user is provided with contact details and opening hours.
 
 ##Future Development Possibilities
 Back end development that links the form to a client database
 Possibility of purchasing items online
+
+## Testing
+
+###Validator testing
+
+###Unfixed Bugs
+
+
+## Deployment
+
+
+##Credits
+
+###Content
+
+
+###Media
+
+
 
 
 
