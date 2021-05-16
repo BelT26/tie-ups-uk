@@ -78,7 +78,7 @@ I originally intended to use media queries to amend the number of products displ
 Through Flexbox I managed to resize the images responsively and I applied the same technique to stack images on top of text on smaller screens for the home page and the contacts page.  I found the following documentation very helpful to refer to [Mdn Flexbox Documentation](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox).
 
 
-## Deployment
+##Deployment
 The site was deployed to GitHub pages following the steps below.
 From the project repositoy I navigated to the Settings tab
 I selected the Master Branch from the source section drop-down menu.
@@ -92,11 +92,10 @@ The live link can be found here https://belt26.github.io/tie-ups-uk/
 Text content on the home page was based on content translated and condensed from the Italian tie-ups web site [tie-ups Italy company info](https://www.tie-ups.it/mondo-tie-ups/?v=1471e3d26b3e).
 
 ###Media
-The two images on the home page were taken by a professional photographer, Tony Cullinane [Tony Cullinane Photography - Facebook Page](https://www.facebook.com/TonyCullinanePhotography) 
-
-All product images were provided by the Italian tie-ups company.
-
-The map image was taken from Google Maps using a snipping tool.
+*The two images on the home page were taken by a professional photographer, Tony Cullinane [Tony Cullinane Photography - Facebook Page](https://www.facebook.com/TonyCullinanePhotography) 
+*All product images were provided by the Italian tie-ups company.
+*The map image was taken from Google Maps.
+*The icons for the logo and social media links were taken from Font Awesome
 
 ##Future Development Possibilities
 Back end development that links the form to a client database
