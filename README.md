@@ -19,11 +19,13 @@ To indicate the active page and clickable links throughout the site I used the c
 This allows users to navigate easily to each page on the site without having to use the back button.  
 Media queries were added to center the links on mobile devices and to move the logo to a separate line to prevent overlapping.   
 
-## Main Image  
+## Main Image 
+![Landing page main image of studded belt]("assets/images/TieUp\ Belts-12.jpg") 
 I wanted to maximize the visual impact on the user by featuring a striking images of one of the range of belts.  
 The brand logo, which is the main heading of the page, was positioned over the photograph as an h1 element.
 
-## About Section  
+## About Section 
+![Snakeskin effect belt draped over leaves]("assets/images/Snake Belt cropped.jpg") 
 This section informs the user of the company's sustainable, animal-friendly values and the USPs of the products.  
 I selected a photograph that both reflected the company ethos by depicting a belt against a backdrop of leaves and provided a flattering image of one of the main products. 
 
@@ -34,6 +36,7 @@ To prevent overlapping on smaller devices I added a media query change the displ
 The links currently take the user to the Facebook and Instagram home pages. These will be amended to link directly to my friend's social media accounts in the future.  
 
 ## Products Page  
+![Sample product image - Navy Scribble Belt]("assets/images/B-C413 SCHIZZO BLU-WHITE fb.jpg")
 This page displays images of the main products in the current collection.  
 Underneath the header two links have been added that take the user either to the map section of the contacts page or the contact form.  
 A zoom feature was added to offer the user a closer view of the product. The initial effect did not look very smooth and so I added CSS transition properties to improve the viewing experience.   
