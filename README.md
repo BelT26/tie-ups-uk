@@ -100,6 +100,7 @@ Text content on the home page was based on content translated and condensed from
 * The map image was taken from Google Maps.
 * The icons for the logo and social media links were taken from Font Awesome
 * The fonts used were imported from Google Fonts.
+* The image on the custom 404 page was by Christelle Olivier and downloaded from [Pixabay]("https://pixabay.com/vectors/404-error-error-404-panel-3060993/").  
 
 ## Future Development Possibilities
 Back end development that links the form to a client database  
