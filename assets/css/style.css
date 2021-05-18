@@ -475,6 +475,14 @@ form button:hover {
     font-size: 1.2rem;
 }
 
+/* Styling for 404 error page */
+#error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
 
 /* media queries */
 /*
