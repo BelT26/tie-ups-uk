@@ -613,6 +613,11 @@ form button:hover {
         bottom: -20vh;
     }
 
+    #cover-text h1{
+        bottom: -20vh;
+        font-size: 2rem;
+    }
+
     #img-2 {
         width: 90vw;
         height: 80vh;
