@@ -140,7 +140,7 @@ footer i {
     background-color: rgba (169, 169, 169, 0,5);
     text-align: center;
     left: auto;
-    bottom: -15vh;
+    bottom: -10vh;
     z-index: 3;
     position: absolute;
 }
@@ -331,7 +331,7 @@ form {
     line-height: 3rem;
     border:darkslategray solid 2px;
     padding: 10px 80px;
-    background-color: rgb(204, 184, 134);
+    background-color: rgb(219, 201, 155);
     border-radius: 10px; 
     
 
@@ -427,7 +427,7 @@ form button:hover {
     width:80%;
     height: auto;
     border: darkslategray solid 2px;
-    box-shadow: 5px 5px 5px 5px darkgoldenrod;
+    box-shadow: 4px 4px rgb(204, 184, 134);
     border-radius: 2%;
     
 }
