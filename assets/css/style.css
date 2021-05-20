@@ -117,7 +117,7 @@ footer i {
 
 
 #main-image-container {
-    height: 600px;
+    height: 70vh;
     width: 80%;
     overflow: hidden;
     position: relative;
@@ -134,20 +134,19 @@ footer i {
 
 #cover-text {
     font-size: 3rem;
-    
     letter-spacing: 5px;
     width: 100%;
     height: 200px;
     background-color: rgba (169, 169, 169, 0,5);
     text-align: center;
     left: auto;
-    bottom: -50px;
+    bottom: -15vh;
     z-index: 3;
     position: absolute;
 }
 
 #cover-text h1 {
-    font-family: 'MuseoModerno', cursive !important;
+    font-family: 'MuseoModerno', cursive;
 
 }
 
@@ -155,6 +154,7 @@ footer i {
 
 #about-us-container {
     width: 80%;
+    height: auto;
     margin: auto;
 }
 
@@ -191,8 +191,8 @@ footer i {
 
 #img-2 {
     
-    max-width: 400px;
-    height: 450px;
+    width:auto;
+    height: 50vh;
     display: inline-block;
     box-sizing: border-box;  
     overflow: hidden; 
@@ -200,7 +200,8 @@ footer i {
 }
 
 #text-box {
-    width: 400px;
+    width: auto;
+    height: auto;
     box-sizing: border-box;
     font-size: 1.1rem;
     display: inline-block;
@@ -343,37 +344,14 @@ form input {
     background-color: rgb(231, 227, 214);
 }
 
-#name-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-start;
-}
 
-.name-input {
-    display: inline-block;
-    width: 420px;
-    box-sizing: border-box;
-    padding-bottom: 10px;
-    padding-right: 40px;
-}
-
-.name-input input {
-    width: 220px;
-    height: 1.6rem;
-    font-size: medium;
-    padding-left: 2px
-    
-}
-
-
-
-#email {
-    width: 600px;
-    height: 1.6rem;
+.input-box {
+    width: 100%;
+    height: 2rem;
     padding-bottom: 10px;
     font-size: medium;
     padding-left: 2px;
+    margin-bottom: 10px;
 }
 
 form p {
@@ -382,8 +360,8 @@ form p {
 }
 
 form textarea {
-    width: 600px;
-    height: 160px;
+    width: 100%;
+    height: 10rem;
     border: darkslategray solid 1px;
     border-radius: 10px;
     background-color: rgb(231, 227, 214);
@@ -478,6 +456,7 @@ form button:hover {
 /* Styling for 404 error page */
 #error-container {
     padding: 50px;
+    margin: 20px auto;
     
 }
 
@@ -497,25 +476,19 @@ form button:hover {
     padding: 5px;
     font-size: 1.2rem;
     color:black;
-    background-color: darkgoldenrod;
+    background-color: rgb(236, 221, 2);
+    border-radius: 10px;
+    border: darkslategray solid 1px;
 }
 
 
 /* media queries */
-/*
+
 @media screen and (max-width: 1200px) {
     form {
         width: 80%;
     }
-
-    #email {
-        width: 500px;
-    }
     
-    form textarea {
-        width: 500px;
-        height: 140px;
-    }
 }
 
 
@@ -577,23 +550,15 @@ form button:hover {
         display: block;
         padding: 10px;
     }
-
-    #contact-form-container {
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        margin: 20px auto 10px;
-        padding: 10px;
-    }
-    
+  
+       
     #contact-form-container h2{
         font-size: 1rem;
     }
         
     form {
         height: auto;
-        width: 80%;
+        width: 90%;
         margin: 10px auto;
         line-height: 2rem;
         padding: 10px 10px;
@@ -609,24 +574,17 @@ form button:hover {
         line-height: 2rem;
     }
 
-    #email {
-        width: 220px;
-    }
-    
-    form textarea {
-        width: 380px;
-        height: 100px;
         
-        
-    }
-    
-    form button {
-        font-size: 0.8rem;
-    }
-               
+           
 }
 
 @media screen and (max-width: 600px) {
+
+    #img-2 {
+        margin-bottom: 20px;
+    }
+
+
     #map {
         width: 250px;
     }
@@ -645,31 +603,28 @@ form button:hover {
         padding: 20px, 40px;
         margin: 0px auto;
     }
-
-    form textarea {
-        width: 220px;
-        font-size: medium;
-    }
+    
 
 }
 
 @media screen and (max-width: 400px) {
-    #map {
-        width: 220px;
+    
+    #cover-text {
+        bottom: -20vh;
     }
 
     #img-2 {
-        margin-bottom: 20px;
+        width: 90vw;
+        height: 80vh;
+        overflow: auto;   
     }
 
-    #img-2 image{
-          width: 320px;
-          height: auto;     
-        
+    #map {
+        width: 220px;
     }
      
 
-} */
+} 
 
 
 
