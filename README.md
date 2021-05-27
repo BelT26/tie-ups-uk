@@ -36,7 +36,7 @@ To prevent overlapping on smaller devices I added a media query change the displ
 The links currently take the user to the Facebook and Instagram home pages. These will be amended to link directly to my friend's social media accounts in the future.  
 
 ## Products Page  
-![Sample product image - Navy Scribble Belt]("https://github.com/BelT26/tie-ups-uk/blob/master/assets/images/B-C413%20SCHIZZO%20BLU-WHITE%20fb.jpg")
+![Sample product image - Navy Scribble Belt](assets/images/B-C413 SCHIZZO BLU-WHITE fb.jpg)
 This page displays images of the main products in the current collection.  
 Underneath the header two links have been added that take the user either to the map section of the contacts page or the contact form.  
 A zoom feature was added to offer the user a closer view of the product. The initial effect did not look very smooth and so I added CSS transition properties to improve the viewing experience.   
