@@ -178,20 +178,19 @@ footer i {
 }
 
 #img-left-text-right {
-    height: auto;
-    width: 100%;
-    margin: 50px auto;
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
     justify-content: space-around;
+    height: auto;
+    width: 80%;
+    margin: 50px auto;   
 
 }
 
 
 #img-2 {
-    
-    width:auto;
+    width:60%;
     height: 50vh;
     display: inline-block;
     box-sizing: border-box;  
@@ -200,7 +199,7 @@ footer i {
 }
 
 #text-box {
-    width: auto;
+    width: 40%;
     height: auto;
     box-sizing: border-box;
     font-size: 1.1rem;
@@ -268,17 +267,11 @@ footer i {
 
 .belt-photo:hover{
     transform: scale(1.5);
-    
-
 }
 
 #studs .belt-photo:hover{
     transform: scale(2);
-    
-
 }
-
-
 
 .belt-caption {
     text-align: center;
@@ -331,19 +324,15 @@ form {
     line-height: 3rem;
     border:darkslategray solid 2px;
     padding: 10px 80px;
-    background-color: rgb(219, 201, 155);
-    border-radius: 10px; 
-    
-
-
+    background-color: rgb(233, 217, 176);
+    border-radius: 10px;   
 }
 
 form input {
     border: darkslategray solid 1px;
     border-radius: 10px;
-    background-color: rgb(231, 227, 214);
+    background-color: rgb(241, 239, 231);
 }
-
 
 .input-box {
     width: 100%;
@@ -387,8 +376,7 @@ form button:hover {
 #store-container {
     width: 80%;
     height: auto; 
-    margin: 100px auto 100px;
-         
+    margin: 100px auto 100px;   
 }
 
 #store-container h2 {
@@ -412,13 +400,9 @@ form button:hover {
     width: 100%;
 }
 
-
-
 #map-container {
     display: inline-block;
     width: 60%;
-    
-
 }
 
 
@@ -429,15 +413,12 @@ form button:hover {
     border: darkslategray solid 2px;
     box-shadow: 4px 4px rgb(204, 184, 134);
     border-radius: 2%;
-    
 }
-
 
 #contact-details {
     width: 40%;
     text-align: right;
     padding-right: 5%;
-
 }
 
 #contact-details h3 {
@@ -456,15 +437,13 @@ form button:hover {
 /* Styling for 404 error page */
 #error-container {
     padding: 50px;
-    margin: 20px auto;
-    
+    margin: 20px auto;    
 }
 
 #error-container img {
     margin: 30px auto;
     width: 40%;
     height: auto;
-
 }
 
 #error-container h1, #error-container h2 {
@@ -492,7 +471,6 @@ form button:hover {
 }
 
 
-
 @media screen and (max-width: 780px) {
 
     nav ul {
@@ -512,13 +490,25 @@ form button:hover {
     #logo {
         position:static;
         display: block;
-        text-align: center;
-        
+        text-align: center;        
     }
 
     
     #cover-text {
-        font-size: 1.5em;
+        font-size: 1.7em;
+    }
+
+    #img-2 {
+        width: 80%;
+    }
+
+    #img-left-text-right {
+        margin: 30px auto;   
+    
+    }
+
+    #text-box {
+        width: 80%;
     }
 
     #map-container {
@@ -529,9 +519,7 @@ form button:hover {
         padding: 0px;
         overflow: hidden;
         box-sizing: border-box;
-        justify-self: center;
-                
-
+        justify-self: center;             
     }
 
     #map {
@@ -580,14 +568,41 @@ form button:hover {
 
 @media screen and (max-width: 600px) {
 
+
+
+    #subheading {
+        margin-bottom: 20px;
+    }
+    
+    #subheading > h2 {
+        font-size: 1.8rem;
+        letter-spacing: 0.3rem;
+        
+    }
+    
+    #subheading > h3 {
+        font-size: 1.2rem;
+        padding: 0px 20px;
+        line-height: 1.8rem;
+        letter-spacing: 0.1rem;
+    
+    }
+
     #img-2 {
         margin-bottom: 20px;
     }
 
+    #map-container {
+        width:90%;
+                  
+    }
 
     #map {
-        width: 250px;
+        width: 100%;
+        height: 40vh;
+        margin: 0 auto;
     }
+
 
     #small-logo {
         display: none;
@@ -595,15 +610,13 @@ form button:hover {
 
     footer ul {
         float: none;
-        margin: 0px auto;
-        
+        margin: 0px auto;        
     }
 
     footer li {
         padding: 20px, 40px;
         margin: 0px auto;
-    }
-    
+    }    
 
 }
 
@@ -624,10 +637,7 @@ form button:hover {
         overflow: auto;   
     }
 
-    #map {
-        width: 220px;
-    }
-     
+       
 
 } 
 

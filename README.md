@@ -64,7 +64,7 @@ The form contains a text area that allows the user to include any queries or req
 This section directs the user to Wratten's Gift Shop in Chislehurst from which my friend sells the belts.  
 To the right of the map the user is provided with contact details and opening hours.  
 
-
+git
 ## Responsive elements  
 
 ### Header  
