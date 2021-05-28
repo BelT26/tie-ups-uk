@@ -211,7 +211,7 @@ footer i {
 
 #products-intro {
     text-align: center;
-    padding: 50px 0px;
+    padding: 50px 10px;
 }
 
 #products-intro > h1 {
@@ -397,7 +397,7 @@ form button:hover {
     flex-wrap: wrap;
     justify-content: space-around;  
     height:auto;
-    padding-top: 70px;
+    padding-top: 50px;
     width: 100%;
 }
 
@@ -408,7 +408,7 @@ form button:hover {
 
 
 #map {
-    margin: 50px auto;
+    margin: 0px auto;
     width:80%;
     height: auto;
     border: darkslategray solid 2px;
@@ -529,6 +529,14 @@ form button:hover {
         width: 80%;
     }
 
+    #products-intro > h1 {     
+        font-size: 3rem;
+    }
+    
+    #products-intro > h2 {
+        font-size: 1.3rem;
+    }
+
     #store-container {
         margin: 80px auto 0px;   
     }
@@ -539,13 +547,14 @@ form button:hover {
     }
 
     #map-contact-flex-container {
-        padding-top: 30px;
+        padding-top: 50px;
+        margin: 0px auto;
     }
 
     #map-container {
         width:80%;
         height: auto;
-        margin: 10px auto;
+        margin: 0px auto;
         float: none;
         padding: 0px;
         overflow: hidden;
