@@ -60,7 +60,7 @@ Currently 18 products are listed. More will be added as my friend's stock expand
 The form allows the user to subscribe for special offers on the product.  
 The form contains a text area that allows the user to include any queries or requests.  
 
-### Map and contact details  
+### Map and Contact Details  
 This section directs the user to Wratten's Gift Shop in Chislehurst from which my friend sells the belts.  
 To the right of the map the user is provided with contact details and opening hours.  
 
@@ -70,8 +70,14 @@ git
 ### Header  
 The elements in the header are centered and the navigation bar appears above the logo on smaller devices.
 
-### About section  
-The image stacks above the text on smaller screens  
+### Main Image
+A rotated image is used for smaller screens and the cover text is removed.
+
+
+### About Section  
+The image stacks above the text on smaller screens. 
+
+A slimmer portrait image replaces the original on mobile devices.
 
 ### Footer  
 The logo is hidden and the social media links are centered on small screens.  
@@ -91,6 +97,8 @@ The map stacks above the contact details on smaller screens.
 I originally intended to use media queries to amend the number of products displayed horizontally from 3 to 2 to 1 according to the device width.  As I was struggling with items overlapping and finding the right breakpoints, I decided to research slack for some other suggestions and found the following post very helpful [Igor CSS Grid Post on Slack](https://code-institute-room.slack.com/archives/C0L316Z96/p1620317611161800). This also led me on to the following flexbox tutorial on youtube[webdev Simplified Flexbox Tutorial](https://www.youtube.com/watch?v=fYq5PXgSsbE).
 
 Through Flexbox I managed to resize the images responsively and I applied the same technique to stack images on top of text on smaller screens for the home page and the contacts page.  I found the following documentation very helpful to refer to [Mdn Flexbox Documentation](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox).
+
+The original images used did not resize well for mobile devices so I instead of using HTML image tags I added them as background images in my css file that would be replaced with portrait style images through media queries on smaller screens. I used the following site for advice on how to add the description [David MacD blog](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html)
 
 
 ## Deployment  

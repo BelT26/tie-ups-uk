@@ -193,7 +193,9 @@ footer i {
     height: 50vh;
     display: inline-block;
     box-sizing: border-box;  
-    overflow: hidden; 
+    background: url("../images/snake-belt.jpg") no-repeat center center;
+    background-size: contain;
+
 
 }
 
@@ -512,12 +514,13 @@ form button:hover {
     }
 
     #img-2 {
-        height: 50Vh;
+        height: 60Vh;
         width: 100%;
     }
 
     #img-left-text-right {
-        margin: 30px auto;   
+        margin: 30px auto;  
+        width: 100%; 
     
     }
 
@@ -589,23 +592,33 @@ form button:hover {
         font-size: 1rem;
         line-height: 2rem;
     }
-
-        
+      
            
 }
 
 @media screen and (max-width: 600px) {
 
+    #main-image-container {
+        margin: 50px auto;    
+    }
 
+    #main-image {        
+        background: url("../images/main-img-rotated.jpg") no-repeat center center;
+        background-size: contain;                
+    }
 
+    #cover-text h1{
+        display: none;
+    }
+    
+    
     #subheading {
         margin-bottom: 20px;
     }
     
     #subheading > h2 {
         font-size: 1.8rem;
-        letter-spacing: 0.3rem;
-        
+        letter-spacing: 0.3rem;        
     }
     
     #subheading > h3 {
@@ -618,6 +631,9 @@ form button:hover {
 
     #img-2 {
         margin-bottom: 20px;
+        background: url("../images/snake-belt-mobile.jpg") no-repeat center center;
+        background-size: contain;
+        
     }
 
     #map-container {
@@ -648,26 +664,6 @@ form button:hover {
 
 }
 
-@media screen and (max-width: 400px) {
-    
-    #cover-text {
-        bottom: -20vh;
-    }
-
-    #cover-text h1{
-        bottom: -20vh;
-        font-size: 2rem;
-    }
-
-    #img-2 {
-        width: 90vw;
-        height: 80vh;
-        overflow: auto;   
-    }
-
-       
-
-} 
 
 
 
