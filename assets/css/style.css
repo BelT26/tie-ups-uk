@@ -408,7 +408,7 @@ form button:hover {
 
 
 #map {
-    margin: 50px, auto;
+    margin: 50px auto;
     width:80%;
     height: auto;
     border: darkslategray solid 2px;
@@ -658,7 +658,7 @@ form button:hover {
     }
 
     footer li {
-        padding: 20px, 40px;
+        padding: 20px 40px;
         margin: 0px auto;
     }    
 
