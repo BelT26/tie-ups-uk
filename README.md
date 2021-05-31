@@ -4,6 +4,8 @@
 ## Author: Helen Taylor  
 ## Version 1.0.0
 
+![Site preview on a variety of devices](https://github.com/BelT26/tie-ups-uk/blob/master/assets/images/responsive-preview-tie-ups.PNG)
+
 
 
 ## Motivation  
@@ -24,13 +26,13 @@ This allows users to navigate easily to each page on the site without having to 
 Media queries were added to center the links on mobile devices and to move the logo to a separate line to prevent overlapping.   
 
 ## Main Image 
-![Landing page main image of studded belt](https://github.com/BelT26/tie-ups-uk/blob/master/assets/images/TieUp%20Belts-12.jpg) 
+![Landing page main image of studded belt](https://github.com/BelT26/tie-ups-uk/blob/master/assets/images/home-page-main-img.PNG) 
 I wanted to maximize the visual impact on the user by featuring a striking images of one of the range of belts.  
 
 The brand logo, which is the main heading of the page, was positioned over the photograph as an h1 element.
 
 ## About Section 
-![Snakeskin effect belt draped over leaves](https://github.com/BelT26/tie-ups-uk/blob/master/assets/images/Snake%20Belt.jpg) 
+![Snakeskin effect belt draped over leaves and text describing company ethos](https://github.com/BelT26/tie-ups-uk/blob/master/assets/images/about-img-description.PNG) 
 This section informs the user of the company's sustainable, animal-friendly values and the USPs of the products.  
 
 I selected a photograph that both reflected the company ethos by depicting a belt against a backdrop of leaves and provided a flattering image of one of the main products. 
@@ -45,7 +47,7 @@ The links currently take the user to the Facebook and Instagram home pages. Thes
 
 
 ## Products Page  
-![Sample product image - Navy Scribble Belt](https://github.com/BelT26/tie-ups-uk/blob/master/assets/images/B-C413%20SCHIZZO%20BLU-WHITE%20fb.jpg)
+![First section on product page containing 3 snakeskin effect belts](https://github.com/BelT26/tie-ups-uk/blob/master/assets/images/products-page.PNG)
 
 This page displays images of the main products in the current collection.  
 
@@ -59,14 +61,16 @@ Currently 18 products are listed. More will be added as my friend's stock expand
 ## Contacts Page  
 
 ### Form  
+![Image of sign up form](https://github.com/BelT26/tie-ups-uk/blob/master/assets/images/form.PNG)
 The form allows the user to subscribe for special offers on the product.  
 The form contains a text area that allows the user to include any queries or requests.  
 
 ### Map and Contact Details  
+![Image of map showing store location and contact details](https://github.com/BelT26/tie-ups-uk/blob/master/assets/images/store-location.PNG)
 This section directs the user to Wratten's Gift Shop in Chislehurst from which my friend sells the belts.  
 To the right of the map the user is provided with contact details and opening hours.  
 
-git
+
 ## Responsive elements  
 
 ### Header  
@@ -74,7 +78,6 @@ The elements in the header are centered and the navigation bar appears above the
 
 ### Main Image
 A rotated image is used for smaller screens and the cover text is removed.
-
 
 ### About Section  
 The image stacks above the text on smaller screens. 
@@ -95,12 +98,20 @@ The map stacks above the contact details on smaller screens.
 
 ### Validator testing  
 
+*HTML
+No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbelt26.github.io%2Ftie-ups-uk%2F).
+
+*CSS
+No errors were returned when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbelt26.github.io%2Ftie-ups-uk%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+
 ### Challenges  
 I originally intended to use media queries to amend the number of products displayed horizontally from 3 to 2 to 1 according to the device width.  As I was struggling with items overlapping and finding the right breakpoints, I decided to research slack for some other suggestions and found the following post very helpful [Igor CSS Grid Post on Slack](https://code-institute-room.slack.com/archives/C0L316Z96/p1620317611161800). This also led me on to the following flexbox tutorial on youtube[webdev Simplified Flexbox Tutorial](https://www.youtube.com/watch?v=fYq5PXgSsbE).
 
 Through Flexbox I managed to resize the images responsively and I applied the same technique to stack images on top of text on smaller screens for the home page and the contacts page.  I found the following documentation very helpful to refer to [Mdn Flexbox Documentation](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox).
 
 The original images used did not resize well for mobile devices so I instead of using HTML image tags I added them as background images in my css file that would be replaced with portrait style images through media queries on smaller screens. I used the following site for advice on how to add the description [David MacD blog](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html)
+
+I had difficulty linking the 404.html page to my site and after several hours unsuccessfully googling solutions my mentor assisted me by advising me to create the 404.md file.
 
 
 ## Deployment  
