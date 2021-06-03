@@ -1,5 +1,5 @@
 # tie-ups UK 
-
+https://belt26.github.io/tie-ups-uk/
 
 ## Author: Helen Taylor  
 ## Version 1.0.0
@@ -27,7 +27,7 @@ Media queries were added to center the links on mobile devices and to move the l
 
 ## Main Image 
 ![Landing page main image of studded belt](https://github.com/BelT26/tie-ups-uk/blob/master/assets/images/home-page-main-img.PNG) 
-I wanted to maximize the visual impact on the user by featuring a striking images of one of the range of belts.  
+I wanted to maximize the visual impact on the user by featuring a striking images of one of the range of belts. I tried creating a hero image which took up 100% of the width but preferred the effect with whitespace either side. 
 
 The brand logo, which is the main heading of the page, was positioned over the photograph as an h1 element.
 
@@ -53,6 +53,8 @@ This page displays images of the main products in the current collection.
 
 Underneath the header two links have been added that take the user either to the map section of the contacts page or the contact form.  
 
+User feedback indicated that on mobile devices the list appeared quite lengthy to scroll through and so for smaller screens I added a section at the top of the page to enable the user to navigate directly to the range they are interested in. I also included a button after each section that the user could click on to return to the top of the page.  This feature is currently hidden on larger devices due to the number of products currently offered but it could be enabled as the collection expands. 
+
 A zoom feature was added to offer the user a closer view of the product. The initial effect did not look very smooth and so I added CSS transition properties to improve the viewing experience.   
 
 Currently 18 products are listed. More will be added as my friend's stock expands.  
@@ -70,6 +72,10 @@ The form contains a text area that allows the user to include any queries or req
 This section directs the user to Wratten's Gift Shop in Chislehurst from which my friend sells the belts.  
 To the right of the map the user is provided with contact details and opening hours.  
 
+
+## 404 Page
+![Image of page user lands on if incorrectly typing a page address with links to return to the site]()
+This page appears if the user incorrectly types one of the page addresses and provides them with links back to the site without having to use the back button. 
 
 ## Responsive elements  
 

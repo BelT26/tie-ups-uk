@@ -235,6 +235,33 @@ footer i {
 /* styling for product list */
 
 
+#ranges {
+    display: none;
+}
+
+
+.return-top {
+    color: black;
+    border: solid black 2px;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: white;
+    margin: 10px auto 20px;
+    display:none;
+}
+
+.return-top a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.return_top a:hover {
+    color: darkgoldenrod;
+}
+
+
 .belt-flex-container {
     display: flex;
     flex-direction: row;
@@ -643,6 +670,14 @@ form button:hover {
         background: url("../images/snake-belt-mobile.jpg") no-repeat center center;
         background-size: contain;
         
+    }
+
+    #ranges {
+        display: block;
+    }
+
+    .return-top {
+        display: block;
     }
 
     #map-container {
