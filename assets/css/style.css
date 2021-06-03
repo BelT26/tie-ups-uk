@@ -365,9 +365,8 @@ form input {
 .input-box {
     width: 100%;
     height: 2rem;
-    padding-bottom: 10px;
+    padding: 7px;
     font-size: medium;
-    padding-left: 2px;
     margin-bottom: 10px;
 }
 
@@ -384,6 +383,7 @@ form textarea {
     background-color: rgb(247, 245, 239);
     font-size: large;
     color: black;
+    padding: 5px;
 }
 
 form button {
@@ -501,6 +501,13 @@ form button:hover {
 /* media queries */
 
 @media screen and (max-width: 1200px) {
+
+    #main-image-container {
+        height: 75vh;
+        margin: 30px auto;
+    }
+
+
     form {
         width: 80%;
     }
@@ -542,7 +549,7 @@ form button:hover {
     }
 
     #img-2 {
-        height: 60Vh;
+        height: 75Vh;
         width: 100%;
     }
 
@@ -554,7 +561,7 @@ form button:hover {
 
     #text-box {
         padding-top: 10px;
-        width: 80%;
+        width: 90%;
     }
 
     #products-intro > h1 {     
@@ -633,10 +640,18 @@ form button:hover {
            
 }
 
+@media screen and (max-height: 600px) {
+    #cover-text h1{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 600px) {
 
     #main-image-container {
-        margin: 50px auto;    
+        height: 75vh;
+        margin: 30px auto; 
+        width: 90%;   
     }
 
     #main-image {        
