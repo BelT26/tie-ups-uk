@@ -485,9 +485,10 @@ form button:hover {
     padding: 5px;
     font-size: 1.2rem;
     color:black;
-    background-color: rgb(228, 194, 4);
+    background-color: rgb(228, 176, 4);
     border-radius: 10px;
-    border: darkslategray solid 1px;
+    border: black solid 2px;
+    text-decoration: none;
 }
 
 #error-container button a {
