@@ -484,8 +484,7 @@ form button:hover {
     margin: 10px auto;
     padding: 5px;
     font-size: 1.2rem;
-    color:black;
-    background-color: rgb(228, 176, 4);
+    background-color: rgb(238, 217, 34);
     border-radius: 10px;
     border: black solid 2px;
     text-decoration: none;
@@ -494,6 +493,7 @@ form button:hover {
 #error-container button a {
     text-decoration: none;
     font-weight: 600;
+    color:black;
     
 }
 
@@ -503,11 +503,22 @@ form button:hover {
 @media screen and (max-width: 1200px) {
 
     #main-image-container {
-        height: 75vh;
-        margin: 30px auto;
+        width: 80%;
+        height: 50vh;
+        margin: 80px auto;
     }
 
-
+    #img-2 {
+        width:50%;
+        height: 40vh;
+        background: url("../images/snake-belt-mobile.jpg") no-repeat center center;
+        background-size: contain;    
+    }
+    
+    #text-box {
+        width: 50%;
+    }
+  
     form {
         width: 80%;
     }
@@ -527,8 +538,7 @@ form button:hover {
     }
     
     nav li {
-        padding: 15px 20px 0px 20px;  
-        
+        padding: 15px 40px 0px 40px;  
     }
 
     nav a {
@@ -544,19 +554,20 @@ form button:hover {
 
     
     #cover-text {
-        font-size: 1.7em;
+        font-size: 2em;
         font-weight: 700;
+        bottom: -20%;
     }
 
     #img-2 {
         height: 75Vh;
         width: 100%;
+        background: url("../images/snake-belt.jpg");
     }
 
     #img-left-text-right {
         margin: 30px auto;  
-        width: 100%; 
-    
+        width: 100%;     
     }
 
     #text-box {
@@ -648,6 +659,10 @@ form button:hover {
 
 @media screen and (max-width: 600px) {
 
+    nav li {
+        padding: 15px 20px 0px 20px;  
+    }
+
     #main-image-container {
         height: 75vh;
         margin: 30px auto; 
@@ -718,7 +733,7 @@ form button:hover {
     }
 
     footer li {
-        padding: 20px 40px;
+        padding: 20px 70px;
         margin: 0px auto;
     }    
 
