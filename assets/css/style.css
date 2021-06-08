@@ -246,12 +246,9 @@ footer i {
     padding: 2%;
     border-radius: 20px;
     background-color: white;
+    width: 120px;
     margin: 10px auto 20px;
     display:none;
-}
-
-.return-top a {
-    color: black;
     font-weight: bold;
     text-decoration: none;
     font-size: 1.1rem;
