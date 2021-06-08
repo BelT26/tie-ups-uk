@@ -72,7 +72,7 @@ To the right of the map the user is provided with contact details and opening ho
 
 
 ## 404 Page
-![Image of page user lands on if incorrectly typing a page address with links to return to the site]()
+![Image of page user lands on if incorrectly typing a page address with links to return to the site](https://github.com/BelT26/tie-ups-uk/blob/master/assets/images/404-page.PNG)
 This page appears if the user incorrectly types one of the page addresses and provides them with links back to the site without having to use the back button. 
 
 ## Responsive elements  
@@ -103,10 +103,13 @@ The map stacks above the contact details on smaller screens.
 ### Validator testing  
 
 *HTML
-No errors were returned when passing through the official [W3C validator: tie-ups](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbelt26.github.io%2Ftie-ups-uk%2F).
+No errors were returned when passing through the official [W3C validator: tie-ups/about](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbelt26.github.io%2Ftie-ups-uk%2F) [tie-ups/products](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbelt26.github.io%2Ftie-ups-uk%2Fproducts.html)[tie-ups/contacts](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbelt26.github.io%2Ftie-ups-uk%2Fcontacts.html).
 
 *CSS
 No errors were returned when passing through the official [Jigsaw validator: tie-ups](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbelt26.github.io%2Ftie-ups-uk%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+
+The contrast between the font colour of the active page title and the links in the header and footer was checked on the WebAim contrast checker and scored 6.45 [WebAim contrast checker - dark golden rod / black](https://webaim.org/resources/contrastchecker/)
+
 
 ### Challenges  
 I originally intended to use media queries to amend the number of products displayed horizontally from 3 to 2 to 1 according to the device width.  As I was struggling with items overlapping and finding the right breakpoints, I decided to research slack for some other suggestions and found the following post very helpful [Igor CSS Grid Post on Slack](https://code-institute-room.slack.com/archives/C0L316Z96/p1620317611161800). This also led me on to the following flexbox tutorial on youtube[webdev Simplified Flexbox Tutorial](https://www.youtube.com/watch?v=fYq5PXgSsbE).
