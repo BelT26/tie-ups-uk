@@ -53,8 +53,6 @@ This page displays images of the main products in the current collection.
 
 Underneath the header two links have been added that take the user either to the map section of the contacts page or the contact form.  
 
-User feedback indicated that on mobile devices the list appeared quite lengthy to scroll through and so for smaller screens I added a section at the top of the page to enable the user to navigate directly to the range they are interested in. I also included a button after each section that the user could click on to return to the top of the page.  This feature is currently hidden on larger devices due to the number of products currently offered but it could be enabled as the collection expands. 
-
 A zoom feature was added to offer the user a closer view of the product. The initial effect did not look very smooth and so I added CSS transition properties to improve the viewing experience.   
 
 Currently 18 products are listed. More will be added as my friend's stock expands.  
@@ -115,6 +113,8 @@ I originally intended to use media queries to amend the number of products displ
 
 Through Flexbox I managed to resize the images responsively and I applied the same technique to stack images on top of text on smaller screens for the home page and the contacts page.  I found the following documentation very helpful to refer to [Mdn Flexbox Documentation](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox).
 
+User feedback indicated that on mobile devices the list appeared quite lengthy to scroll through and so for smaller screens I added a section at the top of the page to enable the user to navigate directly to the range they are interested in. I also included a button after each section that the user could click on to return to the top of the page.  This feature is currently hidden on larger devices due to the number of products currently offered but it could be enabled as the collection expands.
+
 The original images used did not resize well for mobile devices so I instead of using HTML image tags I added them as background images in my css file that would be replaced with portrait style images through media queries on smaller screens. I used the following site for advice on how to add the description [David MacD blog](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html)
 
 I had difficulty linking the 404.html page to my site and after several hours unsuccessfully googling solutions my mentor assisted me by advising me to create the 404.md file.
@@ -146,7 +146,7 @@ Text content on the home page was based on content translated and condensed from
 
 * Back end development that links the form to a client database  
 * Update link to social media accounts  
-* Possibility of purchasing items online  
+* Add a shopping cart feature and the possibility of purchasing items online  
 * Expand range of products featured  
 
 

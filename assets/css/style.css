@@ -484,7 +484,7 @@ form button:hover {
     margin: 10px auto;
     padding: 5px;
     font-size: 1.2rem;
-    background-color: rgb(238, 217, 34);
+    background-color: black;
     border-radius: 10px;
     border: black solid 2px;
     text-decoration: none;
@@ -493,8 +493,12 @@ form button:hover {
 #error-container button a {
     text-decoration: none;
     font-weight: 600;
-    color:black;
+    color:white;
     
+}
+
+#error-container button a:hover {
+    color: darkgoldenrod;
 }
 
 
