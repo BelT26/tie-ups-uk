@@ -53,6 +53,8 @@ This page displays images of the main products in the current collection.
 
 Underneath the header two links have been added that take the user either to the map section of the contacts page or the contact form.  
 
+On mobile devices the ranges of belts are listed before the whole selection of products to allow the user to navigate more easily to the style of belt they are interested in.
+
 A zoom feature was added to offer the user a closer view of the product. The initial effect did not look very smooth and so I added CSS transition properties to improve the viewing experience.   
 
 Currently 18 products are listed. More will be added as my friend's stock expands.  
@@ -62,7 +64,7 @@ Currently 18 products are listed. More will be added as my friend's stock expand
 
 ### Form  
 ![Image of sign up form](https://github.com/BelT26/tie-ups-uk/blob/master/assets/images/form.PNG)
-The form allows the user to subscribe for special offers on the product.  
+The form would eventually allow the user to subscribe for special offers on the product.  
 The form contains a text area that allows the user to include any queries or requests.  
 
 ### Map and Contact Details  
@@ -72,13 +74,14 @@ To the right of the map the user is provided with contact details and opening ho
 
 
 ## 404 Page
-![Image of page user lands on if incorrectly typing a page address with links to return to the site](https://github.com/BelT26/tie-ups-uk/blob/master/assets/images/404-page.PNG)
-This page appears if the user incorrectly types one of the page addresses and provides them with links back to the site without having to use the back button. 
+![Image of page user lands on if incorrectly typing a page address, with links to return to the site](https://github.com/BelT26/tie-ups-uk/blob/master/assets/images/404-page.PNG)
+This page appears if the user incorrectly types one of the page addresses and provides them with links back to the site without them having to use the back button. 
+
 
 ## Responsive elements  
 
 ### Header  
-The elements in the header are centered and the navigation bar appears above the logo on smaller devices.
+The elements in the header are centered and the navigation bar appears below the logo on smaller devices.
 
 ### Main Image
 A rotated image is used for smaller screens and the cover text is removed.
@@ -89,7 +92,7 @@ The image stacks above the text on smaller screens.
 A slimmer portrait image replaces the original on mobile devices.
 
 ### Footer  
-The logo is hidden and the social media links are centered on small screens.  
+The logo is hidden and the social media links are indented on small screens.  
 
 ### Products page  
 The layout of the items in each range changes from 3 x 2 to 2 x 3 or 1 x 6 according to the screen size. 
@@ -119,6 +122,7 @@ Through Flexbox I managed to resize the images responsively and I applied the sa
 User feedback indicated that on mobile devices the list appeared quite lengthy to scroll through and so for smaller screens I added a section at the top of the page to enable the user to navigate directly to the range they are interested in. I also included a button after each section that the user could click on to return to the top of the page.  This feature is currently hidden on larger devices due to the number of products currently offered but it could be enabled as the collection expands.
 
 The original images used did not resize well for mobile devices so I instead of using HTML image tags I added them as background images in my css file that would be replaced with portrait style images through media queries on smaller screens. I used the following site for advice on how to add the description [David MacD blog](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html)
+
 
 I had difficulty linking the 404.html page to my site and after several hours unsuccessfully googling solutions my mentor assisted me by advising me to create the 404.md file.
 
