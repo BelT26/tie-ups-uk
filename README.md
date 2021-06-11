@@ -111,7 +111,7 @@ No errors were returned when passing through the official [W3C validator: tie-up
 *CSS
 No errors were returned when passing through the official [Jigsaw validator: tie-ups](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbelt26.github.io%2Ftie-ups-uk%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
-The contrast between the font colour of the active page title and the links in the header and footer was checked on the WebAim contrast checker and scored 6.45 [WebAim contrast checker - dark golden rod / black](https://webaim.org/resources/contrastchecker/)
+The contrast between the font colour of the active page title and the links in the header and footer was checked on the WebAim contrast checker and scored 6.45 [WebAim contrast checker - dark golden rod / black](https://webaim.org/resources/contrastchecker/?fcolor=B8860B&bcolor=000000)
 
 
 ### Bug Fixes and Challenges  

@@ -517,6 +517,7 @@ form button:hover {
     
     #text-box {
         width: 50%;
+        padding: 0px 30px;
     }
   
     form {
