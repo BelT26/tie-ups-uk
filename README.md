@@ -14,7 +14,7 @@ After being furloughed during the pandemic, a friend of mine has begun importing
 As the company site is in Italian only and includes merchandise not stocked by my friend, to help her promote the products I offered to create a  different website for her for the UK market that focused on her key ranges of accessories. The site is intended to introduce the brand to potential UK customers, showcase the main products she is promoting, provide contact details and the opportunity so sign up to a mailing list.
 
 ## Branding  
-I retained the white text on a blackground of the original site header for maximum contrast.  I created a new logo using the MuseoModerno font from Google Fonts and the ribbon icon from Font Awesome.  
+I used white text on a black background for the site header for maximum contrast.  I created a new logo using the MuseoModerno font from Google Fonts and the ribbon icon from Font Awesome.  
 
 To indicate the active page and clickable links throughout the site I used the color 'darkgoldenrod' which complements the main image on the homepage and reflects the idea of a luxury range.  
 
@@ -55,7 +55,7 @@ Underneath the header two links have been added that take the user either to the
 
 On mobile devices the ranges of belts are listed before the whole selection of products to allow the user to navigate more easily to the style of belt they are interested in.
 
-A zoom feature was added to offer the user a closer view of the product. The initial effect did not look very smooth and so I added CSS transition properties to improve the viewing experience.   
+A zoom feature was added to offer the user a closer view of the product. 
 
 Currently 18 products are listed. More will be added as my friend's stock expands.  
 
@@ -106,7 +106,7 @@ The map stacks above the contact details on smaller screens.
 ### Validator testing  
 
 *HTML
-No errors were returned when passing through the official [W3C validator: tie-ups/about](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbelt26.github.io%2Ftie-ups-uk%2F) [tie-ups/products](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbelt26.github.io%2Ftie-ups-uk%2Fproducts.html)[tie-ups/contacts](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbelt26.github.io%2Ftie-ups-uk%2Fcontacts.html).
+No errors were returned when passing through the official [W3C validator: tie-ups/about](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbelt26.github.io%2Ftie-ups-uk%2F), [tie-ups/products](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbelt26.github.io%2Ftie-ups-uk%2Fproducts.html), [tie-ups/contacts](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbelt26.github.io%2Ftie-ups-uk%2Fcontacts.html).
 
 *CSS
 No errors were returned when passing through the official [Jigsaw validator: tie-ups](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbelt26.github.io%2Ftie-ups-uk%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
@@ -114,15 +114,19 @@ No errors were returned when passing through the official [Jigsaw validator: tie
 The contrast between the font colour of the active page title and the links in the header and footer was checked on the WebAim contrast checker and scored 6.45 [WebAim contrast checker - dark golden rod / black](https://webaim.org/resources/contrastchecker/)
 
 
-### Challenges  
+### Bug Fixes and Challenges  
+The original images on the landing page did not resize well for mobile devices, so instead of using HTML image tags I added them as background images in my css file that would be replaced with portrait style images through media queries on smaller screens. I used the following site for advice on how to add the description [David MacD blog](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html)
+
 I originally intended to use media queries to amend the number of products displayed horizontally from 3 to 2 to 1 according to the device width.  As I was struggling with items overlapping and finding the right breakpoints, I decided to research slack for some other suggestions and found the following post very helpful [Igor CSS Grid Post on Slack](https://code-institute-room.slack.com/archives/C0L316Z96/p1620317611161800). This also led me on to the following flexbox tutorial on youtube[webdev Simplified Flexbox Tutorial](https://www.youtube.com/watch?v=fYq5PXgSsbE).
 
 Through Flexbox I managed to resize the images responsively and I applied the same technique to stack images on top of text on smaller screens for the home page and the contacts page.  I found the following documentation very helpful to refer to [Mdn Flexbox Documentation](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox).
 
-User feedback indicated that on mobile devices the list appeared quite lengthy to scroll through and so for smaller screens I added a section at the top of the page to enable the user to navigate directly to the range they are interested in. I also included a button after each section that the user could click on to return to the top of the page.  This feature is currently hidden on larger devices due to the number of products currently offered but it could be enabled as the collection expands.
+The initial zoom effect on the products page did not look very smooth and so I added CSS transition properties to improve the viewing experience. I used the following page as a guide for adding the transition [W3 Schools CSS Transitions](https://www.w3schools.com/css/css3_transitions.asp).
 
-The original images used did not resize well for mobile devices so I instead of using HTML image tags I added them as background images in my css file that would be replaced with portrait style images through media queries on smaller screens. I used the following site for advice on how to add the description [David MacD blog](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html)
+Originally when applying the zoom effect, I intended to make the whole image grow and take up a larger space on the screen.  Although this worked for the Reptile and Scribble belts on larger devices, the effect was not as attractive on small screens.
+I also wanted to apply a greater zoom ratio to the Studs range but found that this ruined the layout of the page. ![Studs with original zoom effect](https://github.com/BelT26/tie-ups-uk/blob/master/assets/images/studs-zoomed.PNG). To counteract this and maintain the original structure, I added an 'overflow: hidden' property to the image containers.
 
+User feedback indicated that on mobile devices the list of products appeared quite lengthy to scroll through and so for smaller screens I added a section at the top of the page to enable the user to navigate directly to the range they are interested in. I also included a button after each section that the user could click on to return to the top of the page.  This feature is currently hidden on larger devices due to the number of products currently offered but it could be enabled as the collection expands.
 
 I had difficulty linking the 404.html page to my site and after several hours unsuccessfully googling solutions my mentor assisted me by advising me to create the 404.md file.
 
