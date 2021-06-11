@@ -655,6 +655,23 @@ form button:hover {
     #cover-text h1{
         display: none;
     }
+
+    #main-image-container {
+        height: 70vh;
+        width: 80%;
+        margin: 40px auto;          
+    }
+
+    #img-2 {
+        width: 80%;
+        height: 90vh; 
+        background-size: cover; 
+        margin: 20px auto;       
+    }
+
+    #text-box {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 600px) {
