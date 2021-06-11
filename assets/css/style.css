@@ -29,15 +29,13 @@ nav li {
     display: inline-block;  
     padding-top: 30px;  
     padding-left: 30px;
-    padding-right: 20px;
-    
+    padding-right: 20px;    
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    font-size: 1.5rem;
-       
+    font-size: 1.5rem;       
 }
 
 nav a:hover {
@@ -85,24 +83,18 @@ footer {
     font-size: 0.8em;    
 }
 
-
-
 footer ul {
-    float: right;
-    
+    float: right;    
 }
 
 footer li {
     display:inline-block;
-    padding: 20px 40px 20px 80px;
-    
+    padding: 20px 40px 20px 80px;    
 }
-
 
 footer i {
     color: white;
-    font-size: 240%;
-    
+    font-size: 240%;  
 }
 
 .social i:hover {
@@ -113,7 +105,7 @@ footer i {
     color:white;
 }
 
-/* styles for main image on index page */
+/* styles for main image on landing page */
 
 
 #main-image-container {
@@ -122,14 +114,12 @@ footer i {
     overflow: hidden;
     position: relative;
     margin: 80px auto;
-
 }
 
 #main-image {
     height: 100%;
     max-width: 100%;
-    background: url("../images/main-img-large.jpg") no-repeat center center;
-            
+    background: url("../images/main-img-large.jpg") no-repeat center center;            
 }
 
 #cover-text {
@@ -146,7 +136,6 @@ footer i {
 
 #cover-text h1 {
     font-family: 'MuseoModerno', cursive;
-
 }
 
 /* styles for about-us section on home page */
@@ -164,8 +153,7 @@ footer i {
 
 #subheading > h2 {
     font-size: 2rem;
-    letter-spacing: 0.5rem;
-    
+    letter-spacing: 0.5rem;    
 }
 
 #subheading > h3 {
@@ -173,7 +161,6 @@ footer i {
     padding: 0px 40px;
     line-height: 2rem;
     letter-spacing: 0.1rem;
-
 }
 
 #img-left-text-right {
@@ -183,8 +170,7 @@ footer i {
     justify-content: space-around;
     height: auto;
     width: 80%;
-    margin: 50px auto;   
-
+    margin: 50px auto; 
 }
 
 
@@ -195,8 +181,6 @@ footer i {
     box-sizing: border-box;  
     background: url("../images/snake-belt.jpg") no-repeat center center;
     background-size: contain;
-
-
 }
 
 #text-box {
@@ -264,8 +248,7 @@ footer i {
     flex-direction: row;
     flex-wrap:wrap;
     justify-content: space-around;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .belt {
@@ -339,7 +322,6 @@ footer i {
     min-height: fit-content;
     margin-bottom: 15px;
 }
-
 
 form {
     height: auto;
@@ -615,8 +597,6 @@ form button:hover {
         margin: 0 auto;
     }
 
-
-
     #contact-details {
         width: 80%;
         margin: 10px auto;
@@ -625,8 +605,7 @@ form button:hover {
         display: block;
         padding: 10px;
     }
-  
-       
+         
     #contact-form-container h2{
         font-size: 1rem;
     }
@@ -695,8 +674,7 @@ form button:hover {
     #cover-text h1{
         display: none;
     }
-    
-    
+        
     #subheading {
         margin-bottom: 20px;
     }
@@ -710,15 +688,13 @@ form button:hover {
         font-size: 1.2rem;
         padding: 0px 20px;
         line-height: 1.8rem;
-        letter-spacing: 0.1rem;
-    
+        letter-spacing: 0.1rem;    
     }
 
     #img-2 {
         margin-bottom: 20px;
         background: url("../images/snake-belt-mobile.jpg") no-repeat center center;
-        background-size: contain;
-        
+        background-size: contain;        
     }
 
     #ranges {
@@ -730,8 +706,7 @@ form button:hover {
     }
 
     #map-container {
-        width:90%;
-                  
+        width:90%;                  
     }
 
     #map {
@@ -739,7 +714,6 @@ form button:hover {
         height: 40vh;
         margin: 0 auto;
     }
-
 
     #small-logo {
         display: none;
